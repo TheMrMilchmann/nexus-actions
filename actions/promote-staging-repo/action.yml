@@ -1,0 +1,27 @@
+name: "Promote Nexus Staging Repository"
+description: "Promotes a staging Nexus repository."
+author: TheMrMilchmann
+inputs:
+  username:
+    description: 'The username to use to authenticate against the Nexus.'
+    required: true
+  password:
+    description: 'The password to use to authenticate against the Nexus.'
+    required: true
+  base_url:
+    description: 'The base URL of the Nexus instance.'
+    required: true
+    default: 'https://oss.sonatype.org/'
+  staging_repository_id:
+    description: 'The ID of the staging repository.'
+    required: true
+  description:
+    description: 'An optional description for the promoted repository.'
+    required: false
+    default: 'Promoted by GitHub Actions'
+runs:
+  using: node16
+  main: '../lib/promote-staging-repo.js'
+branding:
+  icon: upload
+  color: green
