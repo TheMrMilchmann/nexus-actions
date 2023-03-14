@@ -2,8 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square&label=License)](https://github.com/TheMrMilchmann/setup-msvc-dev/blob/master/LICENSE)
 
-A [GitHub Action](https://github.com/features/actions) to automate publishing to
-Maven Central.
+A set of [GitHub Actions](https://github.com/features/actions) to automate
+publishing to Maven Central.
 
 
 ## Usage
