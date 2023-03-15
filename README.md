@@ -29,7 +29,7 @@ Creates a new staging Nexus repository.
 
 ```yaml
 steps:
-  - uses: TheMrMilchmann/nexus-actions/create-staging-repo@v2
+  - uses: TheMrMilchmann/nexus-actions/create-staging-repo@v1
     with:
       username: ...
       password: ...
@@ -59,11 +59,11 @@ Closes a staging Nexus repository.
 
 ```yaml
 steps:
-  - uses: TheMrMilchmann/nexus-actions/close-staging-repo@v2
+  - uses: TheMrMilchmann/nexus-actions/close-staging-repo@v1
     with:
-      username:
-      password:
-      staging_profile_id:
+      username: ...
+      password: ...
+      staging_repository_id: ...
 ```
 
 #### Inputs
@@ -83,11 +83,11 @@ Promotes a staging Nexus repository.
 
 ```yaml
 steps:
-  - uses: TheMrMilchmann/nexus-actions/promote-staging-repo@v2
+  - uses: TheMrMilchmann/nexus-actions/promote-staging-repo@v1
     with:
-      username:
-      password:
-      staging_profile_id:
+      username: ...
+      password: ...
+      staging_repository_id: ...
 ```
 
 #### Inputs
@@ -108,11 +108,11 @@ Drops a staging Nexus repository.
 
 ```yaml
 steps:
-  - uses: TheMrMilchmann/nexus-actions/drop-staging-repo@v2
+  - uses: TheMrMilchmann/nexus-actions/drop-staging-repo@v1
     with:
-      username:
-      password:
-      staging_profile_id:
+      username: ...
+      password: ...
+      staging_repository_id: ...
 ```
 
 #### Inputs
