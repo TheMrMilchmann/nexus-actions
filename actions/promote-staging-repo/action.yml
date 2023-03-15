@@ -19,6 +19,10 @@ inputs:
     description: 'An optional description for the promoted repository.'
     required: false
     default: 'Promoted by GitHub Actions'
+  auto-drop:
+    description: 'Whether to automatically drop the repository.'
+    required: true
+    default: 'true'
 runs:
   using: node16
   main: '../lib/promote-staging-repo.js'
