@@ -1,4 +1,4 @@
-# nexus-staging-action
+# nexus-actions
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square&label=License)](https://github.com/TheMrMilchmann/setup-msvc-dev/blob/master/LICENSE)
 
