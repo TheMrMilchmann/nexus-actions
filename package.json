@@ -1,0 +1,29 @@
+{
+  "name": "nexus-actions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A set of GitHub Actions to automate publishing to Maven Central (and other Nexus instances).",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMrMilchmann/nexus-actions.git"
+  },
+  "keywords": [
+    "actions",
+    "msvc",
+    "setup",
+    "vcvarsall"
+  ],
+  "author": "TheMrMilchmann",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.16",
+    "typescript": "^4.9.5"
+  }
+}
