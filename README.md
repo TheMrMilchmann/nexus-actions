@@ -3,16 +3,16 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square&label=License)](https://github.com/TheMrMilchmann/setup-msvc-dev/blob/master/LICENSE)
 
 A set of [GitHub Actions](https://github.com/features/actions) to automate
-publishing to Maven Central. Specifically, each action provides access to a
-primitive operation for interacting with the [Nexus Staging Suite](https://help.sonatype.com/repomanager2/staging-releases/staging-overview).
+publishing to Maven Central. Each action provides access to a primitive
+operation for interacting with the [Nexus Staging Suite](https://help.sonatype.com/repomanager2/staging-releases/staging-overview).
 
 ## Actions
 
-Each action takes a `base_url` input that can be used to configure the Nexus
+Each action takes a `base-url` input that can be used to configure the Nexus
 instance. By default, this points to the [repository manager for Maven Central](https://central.sonatype.org/)
 (`https://oss.sonatype.org/`).
 
-> **Note**: For projects provisioned since February 2021, the `base_url` may
+> **Note**: For projects provisioned since February 2021, the `base-url` may
 > have to be updated (e.g., to `https://s01.oss.sonatype.org`). Please refer to
 > [Sonatype's documentation](https://central.sonatype.org/publish/publish-guide/#releasing-to-central)
 > to find out which Nexus instance you should use for your project.
@@ -33,24 +33,26 @@ steps:
     with:
       username: ...
       password: ...
-      staging_profile_id: ...
+      staging-profile-id: ...
+    outputs:
+      repository-id: ${{ steps.create.outputs.repository_id }}
 ```
 
 #### Inputs
 
-| Input                | Description                                            | Default                         |
-|----------------------|--------------------------------------------------------|---------------------------------|
-| `username`           | The username to use to authenticate against the Nexus. |                                 |
-| `password`           | The password to use to authenticate against the Nexus. |                                 |
-| `base_url`           | The base URL of the Nexus instance.                    | `"https://oss.sonatype.org/"`   |
-| `staging_profile_id` | The ID of the staging profile.                         |                                 |
-| `description`        | An optional description for the staging repository.    | `"Created with GitHub Actions"` |
+| Input                | Description                                            | Default                       |
+|----------------------|--------------------------------------------------------|-------------------------------|
+| `username`           | The username to use to authenticate against the Nexus. |                               |
+| `password`           | The password to use to authenticate against the Nexus. |                               |
+| `base-url`           | The base URL of the Nexus instance.                    | `"https://oss.sonatype.org/"` |
+| `staging-profile-id` | The ID of the staging profile.                         |                               |
+| `description`        | An optional description for the staging repository.    | `"Created by GitHub Actions"` |
 
 #### Outputs
 
 | Output          | Description                                     |
 |-----------------|-------------------------------------------------|
-| `repository_id` | The ID of the newly created staging repository. |
+| `repository-id` | The ID of the newly created staging repository. |
 
 
 ### Close Nexus Staging Repository
@@ -63,7 +65,7 @@ steps:
     with:
       username: ...
       password: ...
-      staging_repository_id: ...
+      staging-repository-id: ...
 ```
 
 #### Inputs
@@ -72,22 +74,22 @@ steps:
 |-------------------------|--------------------------------------------------------|-------------------------------|
 | `username`              | The username to use to authenticate against the Nexus. |                               |
 | `password`              | The password to use to authenticate against the Nexus. |                               |
-| `base_url`              | The base URL of the Nexus instance.                    | `"https://oss.sonatype.org/"` |
-| `staging_repository_id` | The ID of the staging repository.                      |                               |
+| `base-url`              | The base URL of the Nexus instance.                    | `"https://oss.sonatype.org/"` |
+| `staging-repository-id` | The ID of the staging repository.                      |                               |
 | `description`           | An optional description for the staging repository.    | `"Closed by GitHub Actions"`  |
 
 
-### Promote Nexus Staging Repository
+### Release Nexus Staging Repository
 
-Promotes a staging Nexus repository.
+Releases a staging Nexus repository.
 
 ```yaml
 steps:
-  - uses: TheMrMilchmann/nexus-actions/promote-staging-repo@v1
+  - uses: TheMrMilchmann/nexus-actions/release-staging-repo@v1
     with:
       username: ...
       password: ...
-      staging_repository_id: ...
+      staging-repository-id: ...
 ```
 
 #### Inputs
@@ -96,9 +98,9 @@ steps:
 |-------------------------|--------------------------------------------------------|--------------------------------|
 | `username`              | The username to use to authenticate against the Nexus. |                                |
 | `password`              | The password to use to authenticate against the Nexus. |                                |
-| `base_url`              | The base URL of the Nexus instance.                    | `"https://oss.sonatype.org/"`  |
-| `staging_repository_id` | The ID of the staging repository.                      |                                |
-| `description`           | An optional description for the staging repository.    | `"Promoted by GitHub Actions"` |
+| `base-url`              | The base URL of the Nexus instance.                    | `"https://oss.sonatype.org/"`  |
+| `staging-repository-id` | The ID of the staging repository.                      |                                |
+| `description`           | An optional description for the staging repository.    | `"Released by GitHub Actions"` |
 | `auto-drop`             | Whether to automatically drop the repository.          | `true`                         |
 
 
@@ -112,7 +114,7 @@ steps:
     with:
       username: ...
       password: ...
-      staging_repository_id: ...
+      staging-repository-id: ...
 ```
 
 #### Inputs
@@ -121,8 +123,8 @@ steps:
 |-------------------------|--------------------------------------------------------|-------------------------------|
 | `username`              | The username to use to authenticate against the Nexus. |                               |
 | `password`              | The password to use to authenticate against the Nexus. |                               |
-| `base_url`              | The base URL of the Nexus instance.                    | `"https://oss.sonatype.org/"` |
-| `staging_repository_id` | The ID of the staging repository.                      |                               |
+| `base-url`              | The base URL of the Nexus instance.                    | `"https://oss.sonatype.org/"` |
+| `staging-repository-id` | The ID of the staging repository.                      |                               |
 | `description`           | An optional description for the staging repository.    | `"Dropped by GitHub Actions"` |
 
 

@@ -1,5 +1,5 @@
-name: "Promote Nexus Staging Repository"
-description: "Promotes a staging Nexus repository."
+name: "Release Nexus Staging Repository"
+description: "Releases a staging Nexus repository."
 author: TheMrMilchmann
 inputs:
   username:
@@ -8,24 +8,24 @@ inputs:
   password:
     description: 'The password to use to authenticate against the Nexus.'
     required: true
-  base_url:
+  base-url:
     description: 'The base URL of the Nexus instance.'
     required: true
     default: 'https://oss.sonatype.org/'
-  staging_repository_id:
+  staging-repository-id:
     description: 'The ID of the staging repository.'
     required: true
   description:
     description: 'An optional description for the promoted repository.'
     required: false
-    default: 'Promoted by GitHub Actions'
+    default: 'Released by GitHub Actions'
   auto-drop:
     description: 'Whether to automatically drop the repository.'
     required: true
     default: 'true'
 runs:
   using: node16
-  main: '../lib/promote-staging-repo.js'
+  main: '../lib/release-staging-repo.js'
 branding:
   icon: upload
   color: green

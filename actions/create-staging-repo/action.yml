@@ -8,19 +8,19 @@ inputs:
   password:
     description: 'The password to use to authenticate against the Nexus.'
     required: true
-  base_url:
+  base-url:
     description: 'The base URL of the Nexus instance.'
     required: true
     default: 'https://oss.sonatype.org/'
-  staging_profile_id:
+  staging-profile-id:
     description: 'The ID of the staging profile.'
     required: true
   description:
     description: 'An optional description for the staging repository.'
     required: false
-    default: 'Created with GitHub Actions'
+    default: 'Created by GitHub Actions'
 outputs:
-  repository_id:
+  repository-id:
     description: 'The ID of the newly created staging repository.'
 runs:
   using: node16
