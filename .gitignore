@@ -15,5 +15,4 @@
 !/.yarn/versions
 
 /dist
-/node_modules
-/release
+/lib
