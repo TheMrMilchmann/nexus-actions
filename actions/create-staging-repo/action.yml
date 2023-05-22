@@ -24,7 +24,7 @@ outputs:
     description: 'The ID of the newly created staging repository.'
 runs:
   using: node16
-  main: '../lib/create-staging-repo.js'
+  main: '../dist/create-staging-repo/index.js'
 branding:
   icon: lock
   color: green

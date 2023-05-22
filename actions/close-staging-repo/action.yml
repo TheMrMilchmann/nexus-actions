@@ -25,7 +25,7 @@ inputs:
     default: '5'
 runs:
   using: node16
-  main: '../lib/close-staging-repo.js'
+  main: '../dist/close-staging-repo/index.js'
 branding:
   icon: lock
   color: green

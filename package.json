@@ -4,7 +4,12 @@
   "private": true,
   "description": "A set of GitHub Actions to automate publishing to Maven Central (and other Nexus instances).",
   "scripts": {
-    "build": "tsc --build tsconfig.app.json",
+    "build:preprocess": "tsc --build tsconfig.app.json",
+    "build:action-close-staging-repo": "ncc build lib/actions/action-close-staging-repo.js -o dist/close-staging-repo",
+    "build:action-create-staging-repo": "ncc build lib/actions/action-create-staging-repo.js -o dist/create-staging-repo",
+    "build:action-drop-staging-repo": "ncc build lib/actions/action-drop-staging-repo.js -o dist/drop-staging-repo",
+    "build:action-release-staging-repo": "ncc build lib/actions/action-release-staging-repo.js -o dist/release-staging-repo",
+    "build": "tsc --build tsconfig.app.json && yarn build:action-close-staging-repo & yarn build:action-create-staging-repo & yarn build:action-drop-staging-repo & yarn build:action-release-staging-repo",
     "test": "jest"
   },
   "repository": {
@@ -27,6 +32,7 @@
     "@types/jest": "^29.5.1",
     "@types/node": "^16.18.32",
     "@types/node-fetch": "^2.6.4",
+    "@vercel/ncc": "^0.36.1",
     "fetch-mock-jest": "^1.5.1",
     "jest": "^29.5.0",
     "ts-jest": "^29.1.0",

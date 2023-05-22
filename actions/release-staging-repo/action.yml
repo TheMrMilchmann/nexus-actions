@@ -25,7 +25,7 @@ inputs:
     default: 'true'
 runs:
   using: node16
-  main: '../lib/release-staging-repo.js'
+  main: '../dist/release-staging-repo/index.js'
 branding:
   icon: upload
   color: green
