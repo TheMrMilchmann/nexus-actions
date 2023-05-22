@@ -2,8 +2,10 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "CommonJS",
+    "lib": ["ES6"],
+
     "allowJs": false,
-    "declaration": false,
+    "declaration": true,
     "outDir": "./lib",
     "rootDir": "./src",
 
@@ -13,11 +15,13 @@
     /* Additional Checks */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "noImplicitAny": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
 
     /* Module Resolution Options */
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true
   },
   "exclude": ["node_modules"]
 }
