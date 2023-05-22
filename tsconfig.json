@@ -5,9 +5,7 @@
     "lib": ["ES6"],
 
     "allowJs": false,
-    "declaration": true,
-    "outDir": "./lib",
-    "rootDir": "./src",
+    "declaration": false,
 
     /* Strict Type-Checking Options */
     "strict": true,
@@ -22,6 +20,5 @@
     /* Module Resolution Options */
     "esModuleInterop": true,
     "skipLibCheck": true
-  },
-  "exclude": ["node_modules"]
+  }
 }
