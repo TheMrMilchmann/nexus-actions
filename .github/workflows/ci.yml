@@ -30,6 +30,12 @@ jobs:
       - name: Yarn build
         run: yarn build
 
+      - uses: actions/upload-artifact@v3
+        with:
+          name: ${{ env.workspace_artifact }}
+          path: .
+          retention-days: 1
+
 
   test:
     name: Test
