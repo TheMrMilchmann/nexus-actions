@@ -67,7 +67,7 @@ jobs:
   cleanup:
     name: Cleanup
     if: ${{ always() }}
-    needs: ["publish", "test"]
+    needs: ["test"]
     runs-on: ubuntu-latest
     steps:
       - name: Cleanup
