@@ -2,7 +2,7 @@ import {JestConfigWithTsJest} from "ts-jest";
 
 const jestConfig: JestConfigWithTsJest = {
   clearMocks: true,
-  moduleFileExtensions: ["ts"],
+  moduleFileExtensions: ["js", "ts"],
   testEnvironment: "node",
   transform: {
     '^.+\\.ts$': [
