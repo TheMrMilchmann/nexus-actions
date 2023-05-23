@@ -13,6 +13,11 @@ on:
       - '**.md'
 
 
+env:
+  WORKSPACE_ARCHIVE: workspace.tar
+  WORKSPACE_ARTIFACT: build-results
+
+
 jobs:
   build:
     name: Build
