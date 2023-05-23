@@ -92,4 +92,4 @@ jobs:
       - name: Cleanup
         uses: GeekyEggo/delete-artifact@54ab544f12cdb7b71613a16a2b5a37a9ade990af
         with:
-          name: ${{ env.workspace_artifact }}
+          name: ${{ env.WORKSPACE_ARTIFACT }}
