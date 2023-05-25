@@ -21,6 +21,9 @@ updates:
     ignore:
       - dependency-name: "@types/node"
         update-types: ["version-update:semver-major"]
+        # See https://github.com/node-fetch/node-fetch/issues/1265
+      - dependency-name: "node-fetch"
+        update-types: [ "version-update:semver-major" ]
     labels:
       - "a:chore"
       - "in:dependencies"
