@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",
-    "@types/node": "^16.18.32",
+    "@types/node": "^16.18.33",
     "@types/node-fetch": "^2.6.4",
     "@vercel/ncc": "^0.36.1",
     "fetch-mock-jest": "^1.5.1",
