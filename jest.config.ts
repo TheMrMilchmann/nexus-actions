@@ -1,6 +1,7 @@
 import {JestConfigWithTsJest} from "ts-jest";
 
 const jestConfig: JestConfigWithTsJest = {
+  automock: false,
   clearMocks: true,
   moduleFileExtensions: ["js", "ts"],
   testEnvironment: "node",
@@ -13,9 +14,7 @@ const jestConfig: JestConfigWithTsJest = {
       }
     ]
   },
-  transformIgnorePatterns: [
-    'node_modules/(?!(fetch-blob|node-fetch)/)'
-  ]
+  verbose: true
 }
 
 export default jestConfig;

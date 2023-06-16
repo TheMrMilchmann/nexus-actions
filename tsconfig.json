@@ -2,7 +2,11 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "CommonJS",
+    "moduleResolution": "node",
     "lib": ["ES6"],
+
+    "rootDir": "./src",
+    "outDir": "./lib",
 
     "allowJs": false,
     "declaration": false,
@@ -18,7 +22,13 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Module Resolution Options */
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": [
+    "**/*.config.ts",
+    "**/*.test.ts"
+  ]
 }
