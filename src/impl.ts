@@ -30,7 +30,7 @@ export default async function nexusRequest<S>(
     let response: Response;
 
     try {
-        response = await fetch(new URL(path, request.baseUrl), {
+        response = await fetch(new URL(path, request.baseUrl).href, {
             method: "POST",
             headers: {
                 "Authorization": "Basic " + Buffer.from(request.username + ":" + request.password).toString("base64"),
