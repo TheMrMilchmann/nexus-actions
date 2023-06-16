@@ -18,7 +18,7 @@ export default async function nexusRequest<S>(
     request: NexusRequest<any>
 ): Promise<S> {
     const controller = new AbortController();
-    setTimeout(() => {
+    const timeout = setTimeout(() => {
         core.info("Request timeout exceeded. Signalling abort...");
         controller.abort();
     }, request.timeoutMs ?? 5_000);
@@ -44,6 +44,8 @@ export default async function nexusRequest<S>(
     } catch (e) {
         // @ts-ignore
         throw new Error("Failed to call Nexus API", { cause: e });
+    } finally {
+        clearTimeout(timeout);
     }
 
     if (!response.ok) {
