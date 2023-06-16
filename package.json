@@ -5,10 +5,10 @@
   "description": "A set of GitHub Actions to automate publishing to Maven Central (and other Nexus instances).",
   "scripts": {
     "build:preprocess": "tsc",
-    "build:close": "ncc build lib/actions/close.js -o dist/close-staging-repo",
-    "build:create": "ncc build lib/actions/create.js -o dist/create-staging-repo",
-    "build:drop": "ncc build lib/actions/drop.js -o dist/drop-staging-repo",
-    "build:release": "ncc build lib/actions/release.js -o dist/release-staging-repo",
+    "build:close": "ncc build lib/actions/action-close-staging-repo.js -o dist/close-staging-repo",
+    "build:create": "ncc build lib/actions/action-create-staging-repo.js -o dist/create-staging-repo",
+    "build:drop": "ncc build lib/actions/action-drop-staging-repo.js -o dist/drop-staging-repo",
+    "build:release": "ncc build lib/actions/action-release-staging-repo.js -o dist/release-staging-repo",
     "build": "tsc && yarn build:close & yarn build:create & yarn build:drop & yarn build:release",
     "test": "jest"
   },
