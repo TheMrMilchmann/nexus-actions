@@ -10,6 +10,11 @@ async function run(): Promise<void> {
         const stagingRepositoryId = core.getInput(INPUT_STAGING_REPOSITORY_ID, { required: true });
         const description = core.getInput(INPUT_DESCRIPTION);
 
+        if (stagingRepositoryId.length == 0) {
+            core.setFailed("Staging repository ID may not be empty");
+            return;
+        }
+
         await dropStagingRepo({
             baseUrl: baseUrl,
             username: username,

@@ -11,6 +11,11 @@ async function run(): Promise<void> {
         const description = core.getInput(INPUT_DESCRIPTION);
         const autoDrop = core.getBooleanInput(INPUT_AUTO_DROP, { required: true });
 
+        if (stagingRepositoryId.length == 0) {
+            core.setFailed("Staging repository ID may not be empty");
+            return;
+        }
+
         await releaseStagingRepo({
             baseUrl: baseUrl,
             username: username,

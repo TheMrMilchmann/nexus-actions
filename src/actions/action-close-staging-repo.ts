@@ -12,6 +12,11 @@ async function run() {
 
         const transitionTimeout = parseInt(core.getInput(INPUT_TRANSITION_TIMEOUT, { required: true }));
 
+        if (stagingRepositoryId.length == 0) {
+            core.setFailed("Staging repository ID may not be empty");
+            return;
+        }
+
         if (isNaN(transitionTimeout)) {
             core.setFailed(`Transition timeout is not a valid number: ${transitionTimeout}`);
             return;
