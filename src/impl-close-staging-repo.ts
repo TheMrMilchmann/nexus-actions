@@ -1,5 +1,5 @@
 import nexusRequest, {NexusRequest} from "./impl";
-import core from "@actions/core";
+import * as core from "@actions/core";
 
 export interface CloseStagingRepoRequestDTO {
     stagedRepositoryIds: string[],
@@ -50,9 +50,7 @@ export default async function closeStagingRepo(
                         baseUrl: request.baseUrl,
                         username: request.username,
                         password: request.password,
-                        data: {
-
-                        }
+                        data: {}
                     }
                 ).then(state => {
                     if (state.transitioning && !wasTransitioning[index]) {
