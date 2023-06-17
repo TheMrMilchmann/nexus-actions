@@ -49,7 +49,7 @@ export default async function nexusRequest<S>(
     }
 
     if (!response.ok) {
-        throw new Error(`Could not create a staging repository. Nexus returned ${response.status} (${response.statusText}).`);
+        throw new Error(`Nexus API request was unsuccessful. Nexus returned ${response.status} (${response.statusText}).`);
     }
 
     let responseText = await response.text();
