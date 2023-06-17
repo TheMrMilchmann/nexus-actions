@@ -1,4 +1,4 @@
-import core from "@actions/core";
+import * as core from "@actions/core";
 import closeStagingRepo from "../impl-close-staging-repo";
 
 async function run() {

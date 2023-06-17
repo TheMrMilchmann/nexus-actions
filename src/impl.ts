@@ -1,5 +1,5 @@
 import fetch, {Response} from "node-fetch";
-import core from "@actions/core";
+import * as core from "@actions/core";
 
 export interface NexusRequest<T> {
     baseUrl: string,

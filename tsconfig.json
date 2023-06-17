@@ -22,7 +22,7 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Module Resolution Options */
-    "allowSyntheticDefaultImports": true,
+    "allowSyntheticDefaultImports": false,
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "skipLibCheck": true

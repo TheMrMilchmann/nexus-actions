@@ -1,4 +1,4 @@
-import core from "@actions/core";
+import * as core from "@actions/core";
 import dropStagingRepo from "../impl-drop-staging-repo";
 
 async function run(): Promise<void> {
