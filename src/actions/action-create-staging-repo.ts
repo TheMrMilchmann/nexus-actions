@@ -10,11 +10,6 @@ async function run(): Promise<void> {
         const stagingProfileId = core.getInput(INPUT_STAGING_PROFILE_ID, { required: true });
         const description = core.getInput(INPUT_DESCRIPTION);
 
-        if (stagingProfileId.length == 0) {
-            core.setFailed("Staging profile ID may not be empty");
-            return;
-        }
-
         const response = await createStagingRepo(
             stagingProfileId,
             {
