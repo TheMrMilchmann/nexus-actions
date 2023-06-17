@@ -1,7 +1,7 @@
 import fetchMock, {enableFetchMocks} from "jest-fetch-mock";
 enableFetchMocks();
 
-import dropStagingRepo from "../src/impl-drop-staging-repo";
+import releaseStagingRepo from "../src/impl-release-staging-repo";
 
 beforeEach(() => {
     fetchMock.resetMocks();
@@ -9,9 +9,9 @@ beforeEach(() => {
 });
 
 afterEach(() => {
-    expect(fetchMock.mock.calls[0][0]).toEqual("https://example.com/service/local/staging/bulk/drop");
+    expect(fetchMock.mock.calls[0][0]).toEqual("https://example.com/service/local/staging/bulk/promote");
     expect(fetchMock).toBeCalledTimes(1);
-});
+})
 
 test("Success", async () => {
     fetchMock.mockResponse(
@@ -21,14 +21,15 @@ test("Success", async () => {
         }
     );
 
-    await dropStagingRepo(
+    await releaseStagingRepo(
         {
             baseUrl: "https://example.com",
             username: "user",
             password: "pass",
             data: {
                 stagedRepositoryIds: ["foobar"],
-                description: "Some random description"
+                description: "Some random description",
+                autoDropAfterRelease: true
             }
         }
     );
@@ -43,14 +44,15 @@ test("Unauthorized", async () => {
     );
 
     expect(async () => {
-        await dropStagingRepo(
+        await releaseStagingRepo(
             {
                 baseUrl: "https://example.com",
                 username: "user",
                 password: "pass",
                 data: {
                     stagedRepositoryIds: ["foobar"],
-                    description: "Some random description"
+                    description: "Some random description",
+                    autoDropAfterRelease: false
                 }
             }
         );
