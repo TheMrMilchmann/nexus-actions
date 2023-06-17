@@ -25,7 +25,7 @@ export default async function nexusRequest<S>(
 
     const payload: NexusDTO<any> = {
         data: request.data
-    }
+    };
 
     let response: Response;
 
