@@ -52,5 +52,11 @@ export default async function nexusRequest<S>(
         throw new Error(`Could not create a staging repository. Nexus returned ${response.status} (${response.statusText}).`);
     }
 
-    return (await response.json() as NexusDTO<S>).data;
+    let responseText = await response.text();
+
+    if (responseText) {
+        return (JSON.parse(responseText) as NexusDTO<S>).data
+    } else {
+        return undefined as S;
+    }
 }
