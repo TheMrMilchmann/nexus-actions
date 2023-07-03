@@ -39,7 +39,7 @@ export default async function nexusRequest<S>(
                 "Content-Type": "application/json",
                 "Accept": "application/json"
             },
-            body: JSON.stringify(payload),
+            body: (method == "GET" || method == "HEAD") ? undefined : JSON.stringify(payload),
             // @ts-ignore
             signal: controller.signal
         });
