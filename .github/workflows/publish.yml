@@ -62,7 +62,7 @@ jobs:
       - name: Checkout
         uses: actions/download-artifact@v3
         with:
-          name: ${{ env.workspace_artifact }}
+          name: ${{ env.WORKSPACE_ARTIFACT }}
           path: .
 
       - name: Untar
