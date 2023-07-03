@@ -1,0 +1,23 @@
+name: "Drop Nexus Staging Repository"
+description: "Drops a staging Nexus repository."
+author: TheMrMilchmann
+inputs:
+  username:
+    description: 'The username to use to authenticate against the Nexus.'
+    required: true
+  password:
+    description: 'The password to use to authenticate against the Nexus.'
+    required: true
+  base-url:
+    description: 'The base URL of the Nexus instance.'
+    required: true
+    default: 'https://oss.sonatype.org/'
+  staging-repository-id:
+    description: 'The ID of the staging repository.'
+    required: true
+runs:
+  using: node16
+  main: '../dist/drop-staging-repo/index.js'
+branding:
+  icon: delete
+  color: green
