@@ -27,10 +27,11 @@ export default async function nexusRequest<S>(
         data: request.data
     };
 
+    const href = new URL(path, request.baseUrl).href;
     let response: Response;
 
     try {
-        response = await fetch(new URL(path, request.baseUrl).href, {
+        response = await fetch(href, {
             method: "POST",
             headers: {
                 "Authorization": "Basic " + Buffer.from(request.username + ":" + request.password).toString("base64"),
@@ -43,13 +44,13 @@ export default async function nexusRequest<S>(
         });
     } catch (e) {
         // @ts-ignore
-        throw new Error("Failed to call Nexus API", { cause: e });
+        throw new Error(`Failed to call Nexus API [url=${href}]`, { cause: e });
     } finally {
         clearTimeout(timeout);
     }
 
     if (!response.ok) {
-        throw new Error(`Nexus API request was unsuccessful. Nexus returned ${response.status} (${response.statusText}).`);
+        throw new Error(`Nexus API request was unsuccessful. Nexus returned ${response.status} (${response.statusText}) [url=${href}].`);
     }
 
     let responseText = await response.text();
