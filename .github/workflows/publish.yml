@@ -103,9 +103,9 @@ jobs:
           cd release
           git restore --source=origin/master -SW .
           cp -a ../actions/. .
+          git add *
           cp -a ../dist/. dist
           git add -f dist/**
-          git add *
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git commit -m "Release $RELEASE_VERSION"
