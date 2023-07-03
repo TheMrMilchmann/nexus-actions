@@ -18,9 +18,11 @@
   },
   "keywords": [
     "actions",
-    "msvc",
-    "setup",
-    "vcvarsall"
+    "publishing",
+    "nexus",
+    "maven",
+    "sonatype",
+    "release-automation"
   ],
   "author": "TheMrMilchmann",
   "license": "MIT",
