@@ -9,7 +9,7 @@
     "outDir": "./lib",
 
     "allowJs": false,
-    "declaration": false,
+    "declaration": true,
 
     /* Strict Type-Checking Options */
     "strict": true,

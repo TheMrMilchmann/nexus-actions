@@ -1,16 +1,17 @@
 import * as core from "@actions/core";
+import * as constants from "../constants";
 import closeStagingRepo from "../impl-close-staging-repo";
 
 async function run() {
     try {
-        const username = core.getInput(INPUT_USERNAME, { required: true });
-        const password = core.getInput(INPUT_PASSWORD, { required: true });
-        const baseUrl = core.getInput(INPUT_BASE_URL, { required: true });
+        const username = core.getInput(constants.INPUT_USERNAME, { required: true });
+        const password = core.getInput(constants.INPUT_PASSWORD, { required: true });
+        const baseUrl = core.getInput(constants.INPUT_BASE_URL, { required: true });
 
-        const stagingRepositoryId = core.getInput(INPUT_STAGING_REPOSITORY_ID, { required: true });
-        const description = core.getInput(INPUT_DESCRIPTION);
+        const stagingRepositoryId = core.getInput(constants.INPUT_STAGING_REPOSITORY_ID, { required: true });
+        const description = core.getInput(constants.INPUT_DESCRIPTION);
 
-        const transitionTimeout = parseInt(core.getInput(INPUT_TRANSITION_TIMEOUT, { required: true }));
+        const transitionTimeout = parseInt(core.getInput(constants.INPUT_TRANSITION_TIMEOUT, { required: true }));
 
         if (stagingRepositoryId.length == 0) {
             core.setFailed("Staging repository ID may not be empty");
