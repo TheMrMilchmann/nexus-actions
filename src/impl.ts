@@ -21,7 +21,7 @@ export default async function nexusRequest<S>(
     const timeout = setTimeout(() => {
         core.info("Request timeout exceeded. Signalling abort...");
         controller.abort();
-    }, request.timeoutMs ?? 5_000);
+    }, request.timeoutMs ?? 45_000);
 
     const payload: NexusDTO<any> = {
         data: request.data
