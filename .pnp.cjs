@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@actions/core", "npm:1.10.0"],\
             ["@types/jest", "npm:29.5.2"],\
-            ["@types/node", "npm:16.18.37"],\
+            ["@types/node", "npm:16.18.38"],\
             ["@types/node-fetch", "npm:2.6.4"],\
             ["@vercel/ncc", "npm:0.36.1"],\
             ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.5.0"],\
@@ -1414,10 +1414,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:16.18.37", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-16.18.37-542d4e1e86-ac9549a48d.zip/node_modules/@types/node/",\
+        ["npm:16.18.38", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.18.38-55313aa2bd-a3baa141e4.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:16.18.37"]\
+            ["@types/node", "npm:16.18.38"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -3780,7 +3780,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nexus-actions", "workspace:."],\
             ["@actions/core", "npm:1.10.0"],\
             ["@types/jest", "npm:29.5.2"],\
-            ["@types/node", "npm:16.18.37"],\
+            ["@types/node", "npm:16.18.38"],\
             ["@types/node-fetch", "npm:2.6.4"],\
             ["@vercel/ncc", "npm:0.36.1"],\
             ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.5.0"],\
@@ -4649,7 +4649,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.11"],\
             ["@tsconfig/node14", "npm:1.0.3"],\
             ["@tsconfig/node16", "npm:1.0.4"],\
-            ["@types/node", "npm:16.18.37"],\
+            ["@types/node", "npm:16.18.38"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
