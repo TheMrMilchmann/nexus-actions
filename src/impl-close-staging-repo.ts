@@ -28,6 +28,7 @@ export default async function closeStagingRepo(
     request: NexusRequest<CloseStagingRepoRequestDTO>
 ): Promise<void> {
     await nexusRequest<void>(
+        "POST",
         "/service/local/staging/bulk/close",
         request
     );
@@ -45,6 +46,7 @@ export default async function closeStagingRepo(
                 return new Promise(() => {});
             } else {
                 return nexusRequest<RepositoryStateResponseDTO>(
+                    "GET",
                     `/service/local/staging/repository/${stagingRepositoryId}`,
                     {
                         baseUrl: request.baseUrl,

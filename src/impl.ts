@@ -14,6 +14,7 @@ interface NexusDTO<T> {
 }
 
 export default async function nexusRequest<S>(
+    method: string,
     path: string,
     request: NexusRequest<any>
 ): Promise<S> {
@@ -32,7 +33,7 @@ export default async function nexusRequest<S>(
 
     try {
         response = await fetch(href, {
-            method: "POST",
+            method: method,
             headers: {
                 "Authorization": "Basic " + Buffer.from(request.username + ":" + request.password).toString("base64"),
                 "Content-Type": "application/json",

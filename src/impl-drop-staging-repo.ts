@@ -9,6 +9,7 @@ export default async function dropStagingRepo(
     request: NexusRequest<DropStagingRepoRequestDTO>
 ): Promise<void> {
     return await nexusRequest<void>(
+        "POST",
         "/service/local/staging/bulk/drop",
         request
     );

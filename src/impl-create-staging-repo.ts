@@ -17,6 +17,7 @@ export default async function createStagingRepo(
     }
 
     return await nexusRequest<CreateStagingRepoResponseDTO>(
+        "POST",
         `/service/local/staging/profiles/${stagingProfileId}/start`,
         request
     );
