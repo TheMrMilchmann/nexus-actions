@@ -1,4 +1,4 @@
-import nexusRequest, {NexusRequest} from "./impl";
+import nexusRequest, {NexusDTO, NexusRequest} from "./impl";
 
 export interface CreateStagingRepoRequestDTO {
     description: string
@@ -16,9 +16,9 @@ export default async function createStagingRepo(
         throw new Error("Staging profile ID may not be empty");
     }
 
-    return await nexusRequest<CreateStagingRepoResponseDTO>(
+    return await nexusRequest<NexusDTO<CreateStagingRepoResponseDTO>>(
         "POST",
         `/service/local/staging/profiles/${stagingProfileId}/start`,
         request
-    );
+    ).then(it => it.data);
 }

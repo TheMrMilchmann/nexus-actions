@@ -9,7 +9,7 @@ export interface NexusRequest<T> {
     data: T
 }
 
-interface NexusDTO<T> {
+export interface NexusDTO<T> {
     data: T
 }
 
@@ -57,7 +57,7 @@ export default async function nexusRequest<S>(
     let responseText = await response.text();
 
     if (responseText) {
-        return (JSON.parse(responseText) as NexusDTO<S>).data
+        return (JSON.parse(responseText) as S);
     } else {
         return undefined as S;
     }

@@ -20,23 +20,21 @@ test("Success", async () => {
 
     fetchMock.mockResponseOnce(
         JSON.stringify({
-            data: {
-                profileId: "string",
-                profileName: "string",
-                profileType: "string",
-                repositoryId: "foobar",
-                type: "closed",
-                policy: "string",
-                userId: "string",
-                userAgent: "string",
-                ipAddress: "string",
-                repositoryURI: "string",
-                created: "string",
-                createdDate: "1970-01-01",
-                createdTimestamp: 0,
+            profileId: "string",
+            profileName: "string",
+            profileType: "string",
+            repositoryId: "foobar",
+            type: "closed",
+            policy: "string",
+            userId: "string",
+            userAgent: "string",
+            ipAddress: "string",
+            repositoryURI: "string",
+            created: "string",
+            createdDate: "1970-01-01",
+            createdTimestamp: 0,
 
-                transitioning: false
-            }
+            transitioning: false
         }),
         { status: 200 }
     );
