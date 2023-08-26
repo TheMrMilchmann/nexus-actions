@@ -5,8 +5,8 @@
     "moduleResolution": "node",
     "lib": ["ES6"],
 
-    "rootDir": "./src",
-    "outDir": "./lib",
+    "rootDir": "src",
+    "outDir": "lib",
 
     "allowJs": false,
     "declaration": true,
@@ -28,6 +28,8 @@
     "skipLibCheck": true
   },
   "exclude": [
+    "dist",
+    "lib",
     "**/*.config.ts",
     "**/*.test.ts"
   ]
