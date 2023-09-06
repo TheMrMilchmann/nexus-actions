@@ -32,7 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:29.5.4"],\
             ["@types/node", "npm:16.18.48"],\
             ["@types/node-fetch", "npm:2.6.4"],\
-            ["@vercel/ncc", "npm:0.36.1"],\
+            ["@vercel/ncc", "npm:0.38.0"],\
             ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.6.4"],\
             ["jest-fetch-mock", "npm:3.0.3"],\
             ["node-fetch", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:2.7.0"],\
@@ -1505,10 +1505,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@vercel/ncc", [\
-        ["npm:0.36.1", {\
-          "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.36.1-03b691ae30-dcb8db089b.zip/node_modules/@vercel/ncc/",\
+        ["npm:0.38.0", {\
+          "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.0-6dfbe77067-859af1b1dc.zip/node_modules/@vercel/ncc/",\
           "packageDependencies": [\
-            ["@vercel/ncc", "npm:0.36.1"],\
+            ["@vercel/ncc", "npm:0.38.0"],\
             ["node-gyp", "npm:9.3.1"]\
           ],\
           "linkType": "HARD"\
@@ -3909,7 +3909,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:29.5.4"],\
             ["@types/node", "npm:16.18.48"],\
             ["@types/node-fetch", "npm:2.6.4"],\
-            ["@vercel/ncc", "npm:0.36.1"],\
+            ["@vercel/ncc", "npm:0.38.0"],\
             ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.6.4"],\
             ["jest-fetch-mock", "npm:3.0.3"],\
             ["node-fetch", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:2.7.0"],\
