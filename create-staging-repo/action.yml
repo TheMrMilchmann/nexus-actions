@@ -1,0 +1,30 @@
+name: "Create Nexus Staging Repository"
+description: "Creates a new staging Nexus repository."
+author: TheMrMilchmann
+inputs:
+  username:
+    description: 'The username to use to authenticate against the Nexus.'
+    required: true
+  password:
+    description: 'The password to use to authenticate against the Nexus.'
+    required: true
+  base-url:
+    description: 'The base URL of the Nexus instance.'
+    required: true
+    default: 'https://oss.sonatype.org/'
+  staging-profile-id:
+    description: 'The ID of the staging profile.'
+    required: true
+  description:
+    description: 'An optional description for the staging repository.'
+    required: false
+    default: 'Created by GitHub Actions'
+outputs:
+  repository-id:
+    description: 'The ID of the newly created staging repository.'
+runs:
+  using: node20
+  main: '../dist/create-staging-repo/index.js'
+branding:
+  icon: lock
+  color: green
