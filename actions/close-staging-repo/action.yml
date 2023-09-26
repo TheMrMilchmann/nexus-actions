@@ -24,7 +24,7 @@ inputs:
     required: true
     default: '5'
 runs:
-  using: node16
+  using: node20
   main: '../dist/close-staging-repo/index.js'
 branding:
   icon: lock

@@ -16,7 +16,7 @@ inputs:
     description: 'The ID of the staging repository.'
     required: true
 runs:
-  using: node16
+  using: node20
   main: '../dist/drop-staging-repo/index.js'
 branding:
   icon: delete

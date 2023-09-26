@@ -23,7 +23,7 @@ outputs:
   repository-id:
     description: 'The ID of the newly created staging repository.'
 runs:
-  using: node16
+  using: node20
   main: '../dist/create-staging-repo/index.js'
 branding:
   icon: lock

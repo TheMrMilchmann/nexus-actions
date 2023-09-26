@@ -24,7 +24,7 @@ inputs:
     required: true
     default: 'true'
 runs:
-  using: node16
+  using: node20
   main: '../dist/release-staging-repo/index.js'
 branding:
   icon: upload

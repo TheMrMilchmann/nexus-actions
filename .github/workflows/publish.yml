@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
+          node-version: "20.x"
 
       - name: Yarn build
         run: yarn build
@@ -47,7 +47,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
+          node-version: "20.x"
           cache: "yarn"
 
       - name: Yarn test
@@ -75,7 +75,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
+          node-version: "20.x"
           cache: "yarn"
 
       - run: |
