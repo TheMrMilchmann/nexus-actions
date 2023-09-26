@@ -1,6 +1,6 @@
 # nexus-actions
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square&label=License)](https://github.com/TheMrMilchmann/setup-msvc-dev/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge&label=License)](https://github.com/TheMrMilchmann/setup-msvc-dev/blob/master/LICENSE)
 
 A set of [GitHub Actions](https://github.com/features/actions) to automate
 publishing to Maven Central. Each action provides access to a primitive
