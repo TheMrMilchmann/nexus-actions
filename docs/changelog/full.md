@@ -1,6 +1,17 @@
+### 1.0.1
+
+_Released 2023 Sep 26_
+
+#### Overview
+
+This is a maintenance release only and does not contain any behavioral change.
+
+
+---
+
 ### 1.0.0
 
-_Released 2023 July 03_
+_Released 2023 Jul 03_
 
 #### Overview
 

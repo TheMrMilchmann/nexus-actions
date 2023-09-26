@@ -44,7 +44,6 @@ export default async function nexusRequest<S>(
             signal: controller.signal
         });
     } catch (e) {
-        // @ts-ignore
         throw new Error(`Failed to call Nexus API [url=${href}]`, { cause: e });
     } finally {
         clearTimeout(timeout);
