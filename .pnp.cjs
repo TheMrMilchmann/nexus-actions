@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@actions/core", "npm:1.10.1"],\
-            ["@types/jest", "npm:29.5.6"],\
+            ["@types/jest", "npm:29.5.7"],\
             ["@types/node", "npm:20.8.10"],\
             ["@types/node-fetch", "npm:2.6.4"],\
             ["@vercel/ncc", "npm:0.38.1"],\
@@ -1526,10 +1526,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/jest", [\
-        ["npm:29.5.6", {\
-          "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.6-fa191e2675-fa13a27bd1.zip/node_modules/@types/jest/",\
+        ["npm:29.5.7", {\
+          "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.7-e6780d868f-e28624ccb0.zip/node_modules/@types/jest/",\
           "packageDependencies": [\
-            ["@types/jest", "npm:29.5.6"],\
+            ["@types/jest", "npm:29.5.7"],\
             ["expect", "npm:29.5.0"],\
             ["pretty-format", "npm:29.5.0"]\
           ],\
@@ -4009,7 +4009,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["nexus-actions", "workspace:."],\
             ["@actions/core", "npm:1.10.1"],\
-            ["@types/jest", "npm:29.5.6"],\
+            ["@types/jest", "npm:29.5.7"],\
             ["@types/node", "npm:20.8.10"],\
             ["@types/node-fetch", "npm:2.6.4"],\
             ["@vercel/ncc", "npm:0.38.1"],\
@@ -4837,7 +4837,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel-jest", null],\
             ["@types/babel__core", null],\
             ["@types/esbuild", null],\
-            ["@types/jest", "npm:29.5.6"],\
+            ["@types/jest", "npm:29.5.7"],\
             ["@types/jest__types", null],\
             ["@types/typescript", null],\
             ["babel-jest", null],\
