@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/core", "npm:1.10.1"],\
           ["@types/jest", "npm:29.5.12"],\
-          ["@types/node", "npm:20.16.1"],\
+          ["@types/node", "npm:20.16.2"],\
           ["@types/node-fetch", "npm:2.6.4"],\
           ["@vercel/ncc", "npm:0.38.1"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.7.0"],\
@@ -1536,10 +1536,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:20.16.1", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-20.16.1-ba5fb07db1-9bae1dffd2.zip/node_modules/@types/node/",\
+      ["npm:20.16.2", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-20.16.2-fa541092c6-fcae2ffaa6.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.16.1"],\
+          ["@types/node", "npm:20.16.2"],\
           ["undici-types", "npm:6.19.8"]\
         ],\
         "linkType": "HARD"\
@@ -4051,7 +4051,7 @@ const RAW_RUNTIME_STATE =
           ["nexus-actions", "workspace:."],\
           ["@actions/core", "npm:1.10.1"],\
           ["@types/jest", "npm:29.5.12"],\
-          ["@types/node", "npm:20.16.1"],\
+          ["@types/node", "npm:20.16.2"],\
           ["@types/node-fetch", "npm:2.6.4"],\
           ["@vercel/ncc", "npm:0.38.1"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.7.0"],\
@@ -4942,7 +4942,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.11"],\
           ["@tsconfig/node14", "npm:1.0.3"],\
           ["@tsconfig/node16", "npm:1.0.4"],\
-          ["@types/node", "npm:20.16.1"],\
+          ["@types/node", "npm:20.16.2"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
