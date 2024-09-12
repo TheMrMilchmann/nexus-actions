@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@actions/core", "npm:1.10.1"],\
-          ["@types/jest", "npm:29.5.12"],\
+          ["@types/jest", "npm:29.5.13"],\
           ["@types/node", "npm:20.16.5"],\
           ["@types/node-fetch", "npm:2.6.4"],\
           ["@vercel/ncc", "npm:0.38.1"],\
@@ -1525,10 +1525,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/jest", [\
-      ["npm:29.5.12", {\
-        "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.12-6459b9d012-312e8dcf92.zip/node_modules/@types/jest/",\
+      ["npm:29.5.13", {\
+        "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.13-b43d0e7497-7d6e3e4ef4.zip/node_modules/@types/jest/",\
         "packageDependencies": [\
-          ["@types/jest", "npm:29.5.12"],\
+          ["@types/jest", "npm:29.5.13"],\
           ["expect", "npm:29.5.0"],\
           ["pretty-format", "npm:29.5.0"]\
         ],\
@@ -4050,7 +4050,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["nexus-actions", "workspace:."],\
           ["@actions/core", "npm:1.10.1"],\
-          ["@types/jest", "npm:29.5.12"],\
+          ["@types/jest", "npm:29.5.13"],\
           ["@types/node", "npm:20.16.5"],\
           ["@types/node-fetch", "npm:2.6.4"],\
           ["@vercel/ncc", "npm:0.38.1"],\
@@ -4886,7 +4886,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel-jest", null],\
           ["@types/babel__core", null],\
           ["@types/esbuild", null],\
-          ["@types/jest", "npm:29.5.12"],\
+          ["@types/jest", "npm:29.5.13"],\
           ["@types/jest__transform", null],\
           ["@types/jest__types", null],\
           ["@types/typescript", null],\
