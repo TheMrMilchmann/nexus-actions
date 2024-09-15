@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@actions/core", "npm:1.10.1"],\
           ["@types/jest", "npm:29.5.13"],\
           ["@types/node", "npm:20.16.5"],\
-          ["@types/node-fetch", "npm:2.6.4"],\
+          ["@types/node-fetch", "npm:2.6.11"],\
           ["@vercel/ncc", "npm:0.38.1"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.7.0"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
@@ -1553,12 +1553,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node-fetch", [\
-      ["npm:2.6.4", {\
-        "packageLocation": "./.yarn/cache/@types-node-fetch-npm-2.6.4-3e5a54c325-e904b5f887.zip/node_modules/@types/node-fetch/",\
+      ["npm:2.6.11", {\
+        "packageLocation": "./.yarn/cache/@types-node-fetch-npm-2.6.11-55289bb1a8-c416df8f18.zip/node_modules/@types/node-fetch/",\
         "packageDependencies": [\
-          ["@types/node-fetch", "npm:2.6.4"],\
+          ["@types/node-fetch", "npm:2.6.11"],\
           ["@types/node", "npm:20.2.3"],\
-          ["form-data", "npm:3.0.1"]\
+          ["form-data", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2629,10 +2629,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["form-data", [\
-      ["npm:3.0.1", {\
-        "packageLocation": "./.yarn/cache/form-data-npm-3.0.1-d080d436e0-944b40ff63.zip/node_modules/form-data/",\
+      ["npm:4.0.0", {\
+        "packageLocation": "./.yarn/cache/form-data-npm-4.0.0-916facec2d-7264aa760a.zip/node_modules/form-data/",\
         "packageDependencies": [\
-          ["form-data", "npm:3.0.1"],\
+          ["form-data", "npm:4.0.0"],\
           ["asynckit", "npm:0.4.0"],\
           ["combined-stream", "npm:1.0.8"],\
           ["mime-types", "npm:2.1.35"]\
@@ -4082,7 +4082,7 @@ const RAW_RUNTIME_STATE =
           ["@actions/core", "npm:1.10.1"],\
           ["@types/jest", "npm:29.5.13"],\
           ["@types/node", "npm:20.16.5"],\
-          ["@types/node-fetch", "npm:2.6.4"],\
+          ["@types/node-fetch", "npm:2.6.11"],\
           ["@vercel/ncc", "npm:0.38.1"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.7.0"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
