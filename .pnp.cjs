@@ -30,8 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@actions/core", "npm:1.10.1"],\
           ["@types/jest", "npm:29.5.13"],\
           ["@types/node", "npm:20.16.5"],\
-          ["@types/node-fetch", "npm:2.6.4"],\
-          ["@vercel/ncc", "npm:0.38.1"],\
+          ["@vercel/ncc", "npm:0.38.2"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.7.0"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
           ["node-fetch", "npm:3.3.2"],\
@@ -1552,17 +1551,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@types/node-fetch", [\
-      ["npm:2.6.4", {\
-        "packageLocation": "./.yarn/cache/@types-node-fetch-npm-2.6.4-3e5a54c325-e904b5f887.zip/node_modules/@types/node-fetch/",\
-        "packageDependencies": [\
-          ["@types/node-fetch", "npm:2.6.4"],\
-          ["@types/node", "npm:20.2.3"],\
-          ["form-data", "npm:3.0.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["@types/stack-utils", [\
       ["npm:2.0.1", {\
         "packageLocation": "./.yarn/cache/@types-stack-utils-npm-2.0.1-867718ab70-205fdbe332.zip/node_modules/@types/stack-utils/",\
@@ -1592,10 +1580,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/ncc", [\
-      ["npm:0.38.1", {\
-        "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.1-529f6837ea-2ed9dff34b.zip/node_modules/@vercel/ncc/",\
+      ["npm:0.38.2", {\
+        "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.2-80db74908c-9a039147e3.zip/node_modules/@vercel/ncc/",\
         "packageDependencies": [\
-          ["@vercel/ncc", "npm:0.38.1"],\
+          ["@vercel/ncc", "npm:0.38.2"],\
           ["node-gyp", "npm:9.3.1"]\
         ],\
         "linkType": "HARD"\
@@ -1760,15 +1748,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/async-npm-3.2.5-f5dbdabdfc-323c3615c3.zip/node_modules/async/",\
         "packageDependencies": [\
           ["async", "npm:3.2.5"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["asynckit", [\
-      ["npm:0.4.0", {\
-        "packageLocation": "./.yarn/cache/asynckit-npm-0.4.0-c718858525-3ce727cbc7.zip/node_modules/asynckit/",\
-        "packageDependencies": [\
-          ["asynckit", "npm:0.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2190,16 +2169,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["combined-stream", [\
-      ["npm:1.0.8", {\
-        "packageLocation": "./.yarn/cache/combined-stream-npm-1.0.8-dc14d4a63a-2e969e637d.zip/node_modules/combined-stream/",\
-        "packageDependencies": [\
-          ["combined-stream", "npm:1.0.8"],\
-          ["delayed-stream", "npm:1.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["concat-map", [\
       ["npm:0.0.1", {\
         "packageLocation": "./.yarn/cache/concat-map-npm-0.0.1-85a921b7ee-9680699c8e.zip/node_modules/concat-map/",\
@@ -2340,15 +2309,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/deepmerge-npm-4.3.1-4f751a0844-058d9e1b0f.zip/node_modules/deepmerge/",\
         "packageDependencies": [\
           ["deepmerge", "npm:4.3.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["delayed-stream", [\
-      ["npm:1.0.0", {\
-        "packageLocation": "./.yarn/cache/delayed-stream-npm-1.0.0-c5a4c4cc02-46fe6e83e2.zip/node_modules/delayed-stream/",\
-        "packageDependencies": [\
-          ["delayed-stream", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2624,18 +2584,6 @@ const RAW_RUNTIME_STATE =
           ["find-up", "npm:4.1.0"],\
           ["locate-path", "npm:5.0.0"],\
           ["path-exists", "npm:4.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["form-data", [\
-      ["npm:3.0.1", {\
-        "packageLocation": "./.yarn/cache/form-data-npm-3.0.1-d080d436e0-944b40ff63.zip/node_modules/form-data/",\
-        "packageDependencies": [\
-          ["form-data", "npm:3.0.1"],\
-          ["asynckit", "npm:0.4.0"],\
-          ["combined-stream", "npm:1.0.8"],\
-          ["mime-types", "npm:2.1.35"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3904,25 +3852,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["mime-db", [\
-      ["npm:1.52.0", {\
-        "packageLocation": "./.yarn/cache/mime-db-npm-1.52.0-b5371d6fd2-54bb60bf39.zip/node_modules/mime-db/",\
-        "packageDependencies": [\
-          ["mime-db", "npm:1.52.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["mime-types", [\
-      ["npm:2.1.35", {\
-        "packageLocation": "./.yarn/cache/mime-types-npm-2.1.35-dd9ea9f3e2-89aa9651b6.zip/node_modules/mime-types/",\
-        "packageDependencies": [\
-          ["mime-types", "npm:2.1.35"],\
-          ["mime-db", "npm:1.52.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["mimic-fn", [\
       ["npm:2.1.0", {\
         "packageLocation": "./.yarn/cache/mimic-fn-npm-2.1.0-4fbeb3abb4-d2421a3444.zip/node_modules/mimic-fn/",\
@@ -4082,8 +4011,7 @@ const RAW_RUNTIME_STATE =
           ["@actions/core", "npm:1.10.1"],\
           ["@types/jest", "npm:29.5.13"],\
           ["@types/node", "npm:20.16.5"],\
-          ["@types/node-fetch", "npm:2.6.4"],\
-          ["@vercel/ncc", "npm:0.38.1"],\
+          ["@vercel/ncc", "npm:0.38.2"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.7.0"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
           ["node-fetch", "npm:3.3.2"],\
