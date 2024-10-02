@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@actions/core", "npm:1.10.1"],\
+          ["@actions/core", "npm:1.11.0"],\
           ["@types/jest", "npm:29.5.13"],\
           ["@types/node", "npm:20.16.10"],\
           ["@vercel/ncc", "npm:0.38.2"],\
@@ -42,12 +42,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@actions/core", [\
-      ["npm:1.10.1", {\
-        "packageLocation": "./.yarn/cache/@actions-core-npm-1.10.1-3cb1000b4d-d32af783ec.zip/node_modules/@actions/core/",\
+      ["npm:1.11.0", {\
+        "packageLocation": "./.yarn/cache/@actions-core-npm-1.11.0-1d5c2f40ca-64a215df06.zip/node_modules/@actions/core/",\
         "packageDependencies": [\
-          ["@actions/core", "npm:1.10.1"],\
-          ["@actions/http-client", "npm:2.1.0"],\
-          ["uuid", "npm:8.3.2"]\
+          ["@actions/core", "npm:1.11.0"],\
+          ["@actions/exec", "npm:1.1.1"],\
+          ["@actions/http-client", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@actions/exec", [\
+      ["npm:1.1.1", {\
+        "packageLocation": "./.yarn/cache/@actions-exec-npm-1.1.1-90973d2f96-c04bd25191.zip/node_modules/@actions/exec/",\
+        "packageDependencies": [\
+          ["@actions/exec", "npm:1.1.1"],\
+          ["@actions/io", "npm:1.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -58,6 +68,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/http-client", "npm:2.1.0"],\
           ["tunnel", "npm:0.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@actions/io", [\
+      ["npm:1.1.3", {\
+        "packageLocation": "./.yarn/cache/@actions-io-npm-1.1.3-82d1cf012b-4de44e8d42.zip/node_modules/@actions/io/",\
+        "packageDependencies": [\
+          ["@actions/io", "npm:1.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4009,7 +4028,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["nexus-actions", "workspace:."],\
-          ["@actions/core", "npm:1.10.1"],\
+          ["@actions/core", "npm:1.11.0"],\
           ["@types/jest", "npm:29.5.13"],\
           ["@types/node", "npm:20.16.10"],\
           ["@vercel/ncc", "npm:0.38.2"],\
@@ -5019,15 +5038,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/util-deprecate-npm-1.0.2-e3fe1a219c-474acf1146.zip/node_modules/util-deprecate/",\
         "packageDependencies": [\
           ["util-deprecate", "npm:1.0.2"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["uuid", [\
-      ["npm:8.3.2", {\
-        "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-9a5f7aa1d6.zip/node_modules/uuid/",\
-        "packageDependencies": [\
-          ["uuid", "npm:8.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
