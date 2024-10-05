@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@actions/core", "npm:1.11.0"],\
+          ["@actions/core", "npm:1.11.1"],\
           ["@types/jest", "npm:29.5.13"],\
           ["@types/node", "npm:20.16.10"],\
           ["@vercel/ncc", "npm:0.38.2"],\
@@ -42,10 +42,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@actions/core", [\
-      ["npm:1.11.0", {\
-        "packageLocation": "./.yarn/cache/@actions-core-npm-1.11.0-1d5c2f40ca-64a215df06.zip/node_modules/@actions/core/",\
+      ["npm:1.11.1", {\
+        "packageLocation": "./.yarn/cache/@actions-core-npm-1.11.1-ad090a2026-94f260e336.zip/node_modules/@actions/core/",\
         "packageDependencies": [\
-          ["@actions/core", "npm:1.11.0"],\
+          ["@actions/core", "npm:1.11.1"],\
           ["@actions/exec", "npm:1.1.1"],\
           ["@actions/http-client", "npm:2.1.0"]\
         ],\
@@ -4028,7 +4028,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["nexus-actions", "workspace:."],\
-          ["@actions/core", "npm:1.11.0"],\
+          ["@actions/core", "npm:1.11.1"],\
           ["@types/jest", "npm:29.5.13"],\
           ["@types/node", "npm:20.16.10"],\
           ["@vercel/ncc", "npm:0.38.2"],\
