@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@actions/core", "npm:1.11.1"],\
-          ["@types/jest", "npm:29.5.13"],\
+          ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:20.16.14"],\
           ["@vercel/ncc", "npm:0.38.2"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.7.0"],\
@@ -1543,10 +1543,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/jest", [\
-      ["npm:29.5.13", {\
-        "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.13-b43d0e7497-7d6e3e4ef4.zip/node_modules/@types/jest/",\
+      ["npm:29.5.14", {\
+        "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.14-506446c38e-59ec7a9c46.zip/node_modules/@types/jest/",\
         "packageDependencies": [\
-          ["@types/jest", "npm:29.5.13"],\
+          ["@types/jest", "npm:29.5.14"],\
           ["expect", "npm:29.5.0"],\
           ["pretty-format", "npm:29.5.0"]\
         ],\
@@ -4029,7 +4029,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["nexus-actions", "workspace:."],\
           ["@actions/core", "npm:1.11.1"],\
-          ["@types/jest", "npm:29.5.13"],\
+          ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:20.16.14"],\
           ["@vercel/ncc", "npm:0.38.2"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.7.0"],\
@@ -4862,7 +4862,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel-jest", null],\
           ["@types/babel__core", null],\
           ["@types/esbuild", null],\
-          ["@types/jest", "npm:29.5.13"],\
+          ["@types/jest", "npm:29.5.14"],\
           ["@types/jest__transform", null],\
           ["@types/jest__types", null],\
           ["@types/typescript", null],\
