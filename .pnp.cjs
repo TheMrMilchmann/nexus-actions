@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@actions/core", "npm:1.11.1"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:20.17.6"],\
-          ["@vercel/ncc", "npm:0.38.2"],\
+          ["@vercel/ncc", "npm:0.38.3"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.7.0"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
           ["node-fetch", "npm:3.3.2"],\
@@ -1600,10 +1600,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/ncc", [\
-      ["npm:0.38.2", {\
-        "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.2-80db74908c-9a039147e3.zip/node_modules/@vercel/ncc/",\
+      ["npm:0.38.3", {\
+        "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.3-cb2c08b26f-f1a05a58e9.zip/node_modules/@vercel/ncc/",\
         "packageDependencies": [\
-          ["@vercel/ncc", "npm:0.38.2"],\
+          ["@vercel/ncc", "npm:0.38.3"],\
           ["node-gyp", "npm:9.3.1"]\
         ],\
         "linkType": "HARD"\
@@ -4031,7 +4031,7 @@ const RAW_RUNTIME_STATE =
           ["@actions/core", "npm:1.11.1"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:20.17.6"],\
-          ["@vercel/ncc", "npm:0.38.2"],\
+          ["@vercel/ncc", "npm:0.38.3"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.7.0"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
           ["node-fetch", "npm:3.3.2"],\
