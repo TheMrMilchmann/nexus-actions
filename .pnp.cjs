@@ -1866,8 +1866,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/browserslist-npm-4.24.2-0bc5f13e3b-f8a9d78bba.zip/node_modules/browserslist/",\
         "packageDependencies": [\
           ["browserslist", "npm:4.24.2"],\
-          ["caniuse-lite", "npm:1.0.30001680"],\
-          ["electron-to-chromium", "npm:1.5.62"],\
+          ["caniuse-lite", "npm:1.0.30001684"],\
+          ["electron-to-chromium", "npm:1.5.64"],\
           ["node-releases", "npm:2.0.18"],\
           ["update-browserslist-db", "virtual:0bc5f13e3b070c660ccf3396ff30b6fc44ede2343c6543d593ce4624807ab1bafdbcd764ac20b4d55e6854e63e2568f1c6d09371eb639766b95e2d401b5b05cb#npm:1.1.1"]\
         ],\
@@ -1950,10 +1950,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001680", {\
-        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001680-df226595b2-38ec7e06e1.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001684", {\
+        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001684-9413687103-35dd0941dd.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001680"]\
+          ["caniuse-lite", "npm:1.0.30001684"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2117,10 +2117,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cross-spawn", [\
-      ["npm:7.0.5", {\
-        "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.5-cf92562a27-c95062469d.zip/node_modules/cross-spawn/",\
+      ["npm:7.0.6", {\
+        "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.6-264bddf921-0d52657d7a.zip/node_modules/cross-spawn/",\
         "packageDependencies": [\
-          ["cross-spawn", "npm:7.0.5"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["path-key", "npm:3.1.1"],\
           ["shebang-command", "npm:2.0.0"],\
           ["which", "npm:2.0.2"]\
@@ -2238,10 +2238,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.62", {\
-        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.62-f1f12e4838-c49646bb6a.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.64", {\
+        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.64-da12e239c8-285245ee0e.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.62"]\
+          ["electron-to-chromium", "npm:1.5.64"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2341,7 +2341,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/execa-npm-5.1.1-191347acf5-8ada91f2d7.zip/node_modules/execa/",\
         "packageDependencies": [\
           ["execa", "npm:5.1.1"],\
-          ["cross-spawn", "npm:7.0.5"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["get-stream", "npm:6.0.1"],\
           ["human-signals", "npm:2.1.0"],\
           ["is-stream", "npm:2.0.1"],\
@@ -2452,7 +2452,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/foreground-child-npm-3.3.0-b8be745271-e3a60480f3.zip/node_modules/foreground-child/",\
         "packageDependencies": [\
           ["foreground-child", "npm:3.3.0"],\
-          ["cross-spawn", "npm:7.0.5"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["signal-exit", "npm:4.1.0"]\
         ],\
         "linkType": "HARD"\
