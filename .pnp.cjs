@@ -1864,8 +1864,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/browserslist-npm-4.24.3-1f4e7bedfb-f5b2275730.zip/node_modules/browserslist/",\
         "packageDependencies": [\
           ["browserslist", "npm:4.24.3"],\
-          ["caniuse-lite", "npm:1.0.30001688"],\
-          ["electron-to-chromium", "npm:1.5.73"],\
+          ["caniuse-lite", "npm:1.0.30001690"],\
+          ["electron-to-chromium", "npm:1.5.75"],\
           ["node-releases", "npm:2.0.19"],\
           ["update-browserslist-db", "virtual:1f4e7bedfbc1da62b08a4dff0b1939e165c1ac8621825a199f80044f745d21b1197aa9e3f40b945971ed6970a3219a5c2658011edc0375ed6177bae1c352c57a#npm:1.1.1"]\
         ],\
@@ -1948,10 +1948,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001688", {\
-        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001688-dbd0cdc8cd-2125e900af.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001690", {\
+        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001690-d600e5893e-9fb4659eb0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001688"]\
+          ["caniuse-lite", "npm:1.0.30001690"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2096,11 +2096,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cross-fetch", [\
-      ["npm:3.1.8", {\
-        "packageLocation": "./.yarn/cache/cross-fetch-npm-3.1.8-71c3c05709-ac8c4ca87d.zip/node_modules/cross-fetch/",\
+      ["npm:3.2.0", {\
+        "packageLocation": "./.yarn/cache/cross-fetch-npm-3.2.0-267029ff2f-e4ab1d390a.zip/node_modules/cross-fetch/",\
         "packageDependencies": [\
-          ["cross-fetch", "npm:3.1.8"],\
-          ["node-fetch", "virtual:71c3c0570974c795b79987bb85d4a29514e196f75c7ca2bb56e80f88177e71cbbb73c9a0f02e781c6ccd33e5e8542eb2d0a05fb7aad876eea2872ec6993aa554#npm:2.7.0"]\
+          ["cross-fetch", "npm:3.2.0"],\
+          ["node-fetch", "virtual:267029ff2f85c65479d29496cc50976fb522ed8beda97f97e23b49194e83bd9867cfd15af96b05ad656edae653eb3a95a72ba015ac1556bfdf9591902b5e5ecc#npm:2.7.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2227,10 +2227,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.73", {\
-        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.73-1193cdfee8-07d0885656.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.75", {\
+        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.75-45443b6ed0-e80b5dc602.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.73"]\
+          ["electron-to-chromium", "npm:1.5.75"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2716,10 +2716,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["is-core-module", [\
-      ["npm:2.16.0", {\
-        "packageLocation": "./.yarn/cache/is-core-module-npm-2.16.0-01e0df3b41-064442b9ee.zip/node_modules/is-core-module/",\
+      ["npm:2.16.1", {\
+        "packageLocation": "./.yarn/cache/is-core-module-npm-2.16.1-a54837229e-452b2c2fb7.zip/node_modules/is-core-module/",\
         "packageDependencies": [\
-          ["is-core-module", "npm:2.16.0"],\
+          ["is-core-module", "npm:2.16.1"],\
           ["hasown", "npm:2.0.2"]\
         ],\
         "linkType": "HARD"\
@@ -3111,7 +3111,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/jest-fetch-mock-npm-3.0.3-ac072ca8af-c119a87fc8.zip/node_modules/jest-fetch-mock/",\
         "packageDependencies": [\
           ["jest-fetch-mock", "npm:3.0.3"],\
-          ["cross-fetch", "npm:3.1.8"],\
+          ["cross-fetch", "npm:3.2.0"],\
           ["promise-polyfill", "npm:8.3.0"]\
         ],\
         "linkType": "HARD"\
@@ -3243,7 +3243,7 @@ const RAW_RUNTIME_STATE =
           ["jest-pnp-resolver", "virtual:5c36f0eefbce78ee308fab92b5dcd29e2b0b70713b50365f0168be5bb1facc6582106f851a083d72bbb13e26d984e8612da5ed4b2bae83649e73e7b1ce19525b#npm:1.2.3"],\
           ["jest-util", "npm:29.7.0"],\
           ["jest-validate", "npm:29.7.0"],\
-          ["resolve", "patch:resolve@npm%3A1.22.9#optional!builtin<compat/resolve>::version=1.22.9&hash=c3c19d"],\
+          ["resolve", "patch:resolve@npm%3A1.22.10#optional!builtin<compat/resolve>::version=1.22.10&hash=c3c19d"],\
           ["resolve.exports", "npm:2.0.3"],\
           ["slash", "npm:3.0.0"]\
         ],\
@@ -3797,10 +3797,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:71c3c0570974c795b79987bb85d4a29514e196f75c7ca2bb56e80f88177e71cbbb73c9a0f02e781c6ccd33e5e8542eb2d0a05fb7aad876eea2872ec6993aa554#npm:2.7.0", {\
-        "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-749a5a9668/0/cache/node-fetch-npm-2.7.0-587d57004e-b24f8a3dc9.zip/node_modules/node-fetch/",\
+      ["virtual:267029ff2f85c65479d29496cc50976fb522ed8beda97f97e23b49194e83bd9867cfd15af96b05ad656edae653eb3a95a72ba015ac1556bfdf9591902b5e5ecc#npm:2.7.0", {\
+        "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-14fbf57bea/0/cache/node-fetch-npm-2.7.0-587d57004e-b24f8a3dc9.zip/node_modules/node-fetch/",\
         "packageDependencies": [\
-          ["node-fetch", "virtual:71c3c0570974c795b79987bb85d4a29514e196f75c7ca2bb56e80f88177e71cbbb73c9a0f02e781c6ccd33e5e8542eb2d0a05fb7aad876eea2872ec6993aa554#npm:2.7.0"],\
+          ["node-fetch", "virtual:267029ff2f85c65479d29496cc50976fb522ed8beda97f97e23b49194e83bd9867cfd15af96b05ad656edae653eb3a95a72ba015ac1556bfdf9591902b5e5ecc#npm:2.7.0"],\
           ["@types/encoding", null],\
           ["encoding", null],\
           ["whatwg-url", "npm:5.0.0"]\
@@ -4130,11 +4130,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["resolve", [\
-      ["patch:resolve@npm%3A1.22.9#optional!builtin<compat/resolve>::version=1.22.9&hash=c3c19d", {\
-        "packageLocation": "./.yarn/cache/resolve-patch-3a52911b36-423e54ddf5.zip/node_modules/resolve/",\
+      ["patch:resolve@npm%3A1.22.10#optional!builtin<compat/resolve>::version=1.22.10&hash=c3c19d", {\
+        "packageLocation": "./.yarn/cache/resolve-patch-b5982cfa8c-d4d878bfe3.zip/node_modules/resolve/",\
         "packageDependencies": [\
-          ["resolve", "patch:resolve@npm%3A1.22.9#optional!builtin<compat/resolve>::version=1.22.9&hash=c3c19d"],\
-          ["is-core-module", "npm:2.16.0"],\
+          ["resolve", "patch:resolve@npm%3A1.22.10#optional!builtin<compat/resolve>::version=1.22.10&hash=c3c19d"],\
+          ["is-core-module", "npm:2.16.1"],\
           ["path-parse", "npm:1.0.7"],\
           ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
         ],\
