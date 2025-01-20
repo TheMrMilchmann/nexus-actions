@@ -68,7 +68,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/http-client", "npm:2.2.3"],\
           ["tunnel", "npm:0.0.6"],\
-          ["undici", "npm:5.28.4"]\
+          ["undici", "npm:5.28.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1864,8 +1864,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/browserslist-npm-4.24.4-2fdeb5face-11fda105e8.zip/node_modules/browserslist/",\
         "packageDependencies": [\
           ["browserslist", "npm:4.24.4"],\
-          ["caniuse-lite", "npm:1.0.30001692"],\
-          ["electron-to-chromium", "npm:1.5.80"],\
+          ["caniuse-lite", "npm:1.0.30001695"],\
+          ["electron-to-chromium", "npm:1.5.83"],\
           ["node-releases", "npm:2.0.19"],\
           ["update-browserslist-db", "virtual:2fdeb5face9914bb5fd94c70f084d153c80d2f09e5aabee010e4220b248dc23fca8f73c7beed0195e45ae6e2b1cb25388f709d7bfc4f00e473d573887faf4e5c#npm:1.1.2"]\
         ],\
@@ -1948,10 +1948,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001692", {\
-        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001692-6af96beb31-92449ec9e9.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001695", {\
+        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001695-6348509850-8107c5e89b.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001692"]\
+          ["caniuse-lite", "npm:1.0.30001695"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2227,10 +2227,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.80", {\
-        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.80-b48899e9a6-fa77236f05.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.83", {\
+        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.83-4051c75590-5432641977.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.80"]\
+          ["electron-to-chromium", "npm:1.5.83"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4651,10 +4651,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici", [\
-      ["npm:5.28.4", {\
-        "packageLocation": "./.yarn/cache/undici-npm-5.28.4-63fa65e206-a666a9f5ac.zip/node_modules/undici/",\
+      ["npm:5.28.5", {\
+        "packageLocation": "./.yarn/cache/undici-npm-5.28.5-52b9d359fd-459cd84ab7.zip/node_modules/undici/",\
         "packageDependencies": [\
-          ["undici", "npm:5.28.4"],\
+          ["undici", "npm:5.28.5"],\
           ["@fastify/busboy", "npm:2.1.1"]\
         ],\
         "linkType": "HARD"\
