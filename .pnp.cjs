@@ -1562,10 +1562,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["acorn", [\
-      ["npm:8.14.0", {\
-        "packageLocation": "./.yarn/cache/acorn-npm-8.14.0-dc46f61424-6df29c3555.zip/node_modules/acorn/",\
+      ["npm:8.14.1", {\
+        "packageLocation": "./.yarn/cache/acorn-npm-8.14.1-aee76ee752-d1379bbee2.zip/node_modules/acorn/",\
         "packageDependencies": [\
-          ["acorn", "npm:8.14.0"]\
+          ["acorn", "npm:8.14.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1575,7 +1575,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/acorn-walk-npm-8.3.4-a75fa85ead-871386764e.zip/node_modules/acorn-walk/",\
         "packageDependencies": [\
           ["acorn-walk", "npm:8.3.4"],\
-          ["acorn", "npm:8.14.0"]\
+          ["acorn", "npm:8.14.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1864,8 +1864,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/browserslist-npm-4.24.4-2fdeb5face-11fda105e8.zip/node_modules/browserslist/",\
         "packageDependencies": [\
           ["browserslist", "npm:4.24.4"],\
-          ["caniuse-lite", "npm:1.0.30001701"],\
-          ["electron-to-chromium", "npm:1.5.109"],\
+          ["caniuse-lite", "npm:1.0.30001703"],\
+          ["electron-to-chromium", "npm:1.5.113"],\
           ["node-releases", "npm:2.0.19"],\
           ["update-browserslist-db", "virtual:2fdeb5face9914bb5fd94c70f084d153c80d2f09e5aabee010e4220b248dc23fca8f73c7beed0195e45ae6e2b1cb25388f709d7bfc4f00e473d573887faf4e5c#npm:1.1.3"]\
         ],\
@@ -1948,10 +1948,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001701", {\
-        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001701-136a9c0306-d121607a96.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001703", {\
+        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001703-4fd183aaad-cfab174766.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001701"]\
+          ["caniuse-lite", "npm:1.0.30001703"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2227,10 +2227,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.109", {\
-        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.109-ea70b3cfa1-4f6bd5963a.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.113", {\
+        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.113-4344b7f5e7-65d09ca095.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.109"]\
+          ["electron-to-chromium", "npm:1.5.113"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4592,7 +4592,7 @@ const RAW_RUNTIME_STATE =
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
-          ["acorn", "npm:8.14.0"],\
+          ["acorn", "npm:8.14.1"],\
           ["acorn-walk", "npm:8.3.4"],\
           ["arg", "npm:4.1.3"],\
           ["create-require", "npm:1.1.1"],\
