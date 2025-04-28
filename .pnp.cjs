@@ -1867,7 +1867,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["browserslist", "npm:4.24.4"],\
           ["caniuse-lite", "npm:1.0.30001715"],\
-          ["electron-to-chromium", "npm:1.5.139"],\
+          ["electron-to-chromium", "npm:1.5.143"],\
           ["node-releases", "npm:2.0.19"],\
           ["update-browserslist-db", "virtual:2fdeb5face9914bb5fd94c70f084d153c80d2f09e5aabee010e4220b248dc23fca8f73c7beed0195e45ae6e2b1cb25388f709d7bfc4f00e473d573887faf4e5c#npm:1.1.3"]\
         ],\
@@ -2229,10 +2229,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.139", {\
-        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.139-b2c0669700-8748eccdd4.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.143", {\
+        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.143-f0119be1b2-91a7980f96.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.139"]\
+          ["electron-to-chromium", "npm:1.5.143"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4578,7 +4578,7 @@ const RAW_RUNTIME_STATE =
           ["make-error", "npm:1.3.6"],\
           ["semver", "npm:7.7.1"],\
           ["ts-jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.3.2"],\
-          ["type-fest", "npm:4.40.0"],\
+          ["type-fest", "npm:4.40.1"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["yargs-parser", "npm:21.1.1"]\
         ],\
@@ -4672,10 +4672,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:4.40.0", {\
-        "packageLocation": "./.yarn/cache/type-fest-npm-4.40.0-18c72d1d94-dbca20979d.zip/node_modules/type-fest/",\
+      ["npm:4.40.1", {\
+        "packageLocation": "./.yarn/cache/type-fest-npm-4.40.1-b962ec960c-907767cd78.zip/node_modules/type-fest/",\
         "packageDependencies": [\
-          ["type-fest", "npm:4.40.0"]\
+          ["type-fest", "npm:4.40.1"]\
         ],\
         "linkType": "HARD"\
       }]\
