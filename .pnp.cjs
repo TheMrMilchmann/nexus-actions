@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/core", "npm:1.11.1"],\
           ["@types/jest", "npm:29.5.14"],\
-          ["@types/node", "npm:20.17.47"],\
+          ["@types/node", "npm:22.15.18"],\
           ["@vercel/ncc", "npm:0.38.3"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.7.0"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
@@ -1499,14 +1499,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:20.17.47", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-20.17.47-bec8960370-b24f78b592.zip/node_modules/@types/node/",\
-        "packageDependencies": [\
-          ["@types/node", "npm:20.17.47"],\
-          ["undici-types", "npm:6.19.8"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:22.15.18", {\
         "packageLocation": "./.yarn/cache/@types-node-npm-22.15.18-4e14c3d4f1-89c8c638be.zip/node_modules/@types/node/",\
         "packageDependencies": [\
@@ -3780,7 +3772,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/core", "npm:1.11.1"],\
           ["@types/jest", "npm:29.5.14"],\
-          ["@types/node", "npm:20.17.47"],\
+          ["@types/node", "npm:22.15.18"],\
           ["@vercel/ncc", "npm:0.38.3"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.7.0"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
@@ -4626,7 +4618,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.11"],\
           ["@tsconfig/node14", "npm:1.0.3"],\
           ["@tsconfig/node16", "npm:1.0.4"],\
-          ["@types/node", "npm:20.17.47"],\
+          ["@types/node", "npm:22.15.18"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
@@ -4707,13 +4699,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:6.19.8", {\
-        "packageLocation": "./.yarn/cache/undici-types-npm-6.19.8-9f12285b7a-cf0b48ed4f.zip/node_modules/undici-types/",\
-        "packageDependencies": [\
-          ["undici-types", "npm:6.19.8"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:6.21.0", {\
         "packageLocation": "./.yarn/cache/undici-types-npm-6.21.0-eb2b0ed56a-ec8f41aa43.zip/node_modules/undici-types/",\
         "packageDependencies": [\
