@@ -36,7 +36,7 @@ const RAW_RUNTIME_STATE =
           ["jest-fetch-mock", "npm:3.0.3"],\
           ["nexus-actions", "workspace:."],\
           ["node-fetch", "npm:3.3.2"],\
-          ["ts-jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.3.3"],\
+          ["ts-jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.3.4"],\
           ["ts-node", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
@@ -3786,7 +3786,7 @@ const RAW_RUNTIME_STATE =
           ["jest-fetch-mock", "npm:3.0.3"],\
           ["nexus-actions", "workspace:."],\
           ["node-fetch", "npm:3.3.2"],\
-          ["ts-jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.3.3"],\
+          ["ts-jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.3.4"],\
           ["ts-node", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
@@ -4553,15 +4553,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ts-jest", [\
-      ["npm:29.3.3", {\
-        "packageLocation": "./.yarn/cache/ts-jest-npm-29.3.3-5e8759ff3d-b3de49404b.zip/node_modules/ts-jest/",\
+      ["npm:29.3.4", {\
+        "packageLocation": "./.yarn/cache/ts-jest-npm-29.3.4-ab85c5ac0f-9f22469ef9.zip/node_modules/ts-jest/",\
         "packageDependencies": [\
-          ["ts-jest", "npm:29.3.3"]\
+          ["ts-jest", "npm:29.3.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.3.3", {\
-        "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-9a440d55cf/0/cache/ts-jest-npm-29.3.3-5e8759ff3d-b3de49404b.zip/node_modules/ts-jest/",\
+      ["virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.3.4", {\
+        "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-62cc1b3e41/0/cache/ts-jest-npm-29.3.4-ab85c5ac0f-9f22469ef9.zip/node_modules/ts-jest/",\
         "packageDependencies": [\
           ["@babel/core", null],\
           ["@jest/transform", null],\
@@ -4584,7 +4584,7 @@ const RAW_RUNTIME_STATE =
           ["lodash.memoize", "npm:4.1.2"],\
           ["make-error", "npm:1.3.6"],\
           ["semver", "npm:7.7.2"],\
-          ["ts-jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.3.3"],\
+          ["ts-jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.3.4"],\
           ["type-fest", "npm:4.41.0"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["yargs-parser", "npm:21.1.1"]\
