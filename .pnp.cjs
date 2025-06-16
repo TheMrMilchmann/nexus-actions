@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/core", "npm:1.11.1"],\
           ["@types/jest", "npm:30.0.0"],\
-          ["@types/node", "npm:20.19.0"],\
+          ["@types/node", "npm:20.19.1"],\
           ["@vercel/ncc", "npm:0.38.3"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:30.0.0"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
@@ -1024,7 +1024,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@jest/console", "npm:30.0.0"],\
           ["@jest/types", "npm:30.0.0"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["chalk", "npm:4.1.2"],\
           ["jest-message-util", "npm:30.0.0"],\
           ["jest-util", "npm:30.0.0"],\
@@ -1051,7 +1051,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/test-result", "npm:30.0.0"],\
           ["@jest/transform", "npm:30.0.0"],\
           ["@jest/types", "npm:30.0.0"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["@types/node-notifier", null],\
           ["ansi-escapes", "npm:4.3.2"],\
           ["chalk", "npm:4.1.2"],\
@@ -1099,7 +1099,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/environment", "npm:30.0.0"],\
           ["@jest/fake-timers", "npm:30.0.0"],\
           ["@jest/types", "npm:30.0.0"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["jest-mock", "npm:30.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -1133,7 +1133,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/fake-timers", "npm:30.0.0"],\
           ["@jest/types", "npm:30.0.0"],\
           ["@sinonjs/fake-timers", "npm:13.0.5"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["jest-message-util", "npm:30.0.0"],\
           ["jest-mock", "npm:30.0.0"],\
           ["jest-util", "npm:30.0.0"]\
@@ -1168,7 +1168,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@jest-pattern-npm-30.0.0-8f812d915e-4c21a48b1d.zip/node_modules/@jest/pattern/",\
         "packageDependencies": [\
           ["@jest/pattern", "npm:30.0.0"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["jest-regex-util", "npm:30.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -1192,7 +1192,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/transform", "npm:30.0.0"],\
           ["@jest/types", "npm:30.0.0"],\
           ["@jridgewell/trace-mapping", "npm:0.3.25"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["@types/node-notifier", null],\
           ["chalk", "npm:4.1.2"],\
           ["collect-v8-coverage", "npm:1.0.2"],\
@@ -1313,7 +1313,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/types", "npm:30.0.0"],\
           ["@types/istanbul-lib-coverage", "npm:2.0.6"],\
           ["@types/istanbul-reports", "npm:3.0.4"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["@types/yargs", "npm:17.0.33"],\
           ["chalk", "npm:4.1.2"]\
         ],\
@@ -1594,19 +1594,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:20.19.0", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-20.19.0-5d340a9006-76cc44487f.zip/node_modules/@types/node/",\
+      ["npm:20.19.1", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-20.19.1-9517492a91-2369a96a83.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.19.0"],\
+          ["@types/node", "npm:20.19.1"],\
           ["undici-types", "npm:6.21.0"]\
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:22.15.30", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-22.15.30-04ae714c4d-16d03f30df.zip/node_modules/@types/node/",\
+      ["npm:24.0.3", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-24.0.3-e96f3e375e-6cce0afa9b.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.15.30"],\
-          ["undici-types", "npm:6.21.0"]\
+          ["@types/node", "npm:24.0.3"],\
+          ["undici-types", "npm:7.8.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3151,7 +3151,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/expect", "npm:30.0.0"],\
           ["@jest/test-result", "npm:30.0.0"],\
           ["@jest/types", "npm:30.0.0"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["chalk", "npm:4.1.2"],\
           ["co", "npm:4.6.0"],\
           ["dedent", "virtual:49e7b00b681e1ea6e290df0a7ba7ea819564f13919953440390470996711568b2f2bce91e248e0b2b4a450d9af728d3bc1a67bb39f0ae041bb4ef8540a7a7869#npm:1.6.0"],\
@@ -3221,7 +3221,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/test-sequencer", "npm:30.0.0"],\
           ["@jest/types", "npm:30.0.0"],\
           ["@types/esbuild-register", null],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["@types/ts-node", null],\
           ["babel-jest", "virtual:160db8895bdfc683f99bb5301244a940d15d9ac5ab0e7e8b4fcc72ea51e2d47c0949f9ede9caba47f844101659924fe1412373c27235e03cae240483b722654a#npm:30.0.0"],\
           ["chalk", "npm:4.1.2"],\
@@ -3343,7 +3343,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/environment", "npm:30.0.0"],\
           ["@jest/fake-timers", "npm:30.0.0"],\
           ["@jest/types", "npm:30.0.0"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["jest-environment-node", "npm:30.0.0"],\
           ["jest-mock", "npm:30.0.0"],\
           ["jest-util", "npm:30.0.0"],\
@@ -3368,7 +3368,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/jest-haste-map-npm-30.0.0-3606160998-5462964548.zip/node_modules/jest-haste-map/",\
         "packageDependencies": [\
           ["@jest/types", "npm:30.0.0"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["anymatch", "npm:3.1.3"],\
           ["fb-watchman", "npm:2.0.2"],\
           ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
@@ -3430,7 +3430,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/jest-mock-npm-30.0.0-1cab834040-4896ba2504.zip/node_modules/jest-mock/",\
         "packageDependencies": [\
           ["@jest/types", "npm:30.0.0"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["jest-mock", "npm:30.0.0"],\
           ["jest-util", "npm:30.0.0"]\
         ],\
@@ -3505,7 +3505,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/test-result", "npm:30.0.0"],\
           ["@jest/transform", "npm:30.0.0"],\
           ["@jest/types", "npm:30.0.0"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["chalk", "npm:4.1.2"],\
           ["emittery", "npm:0.13.1"],\
           ["exit-x", "npm:0.2.2"],\
@@ -3538,7 +3538,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/test-result", "npm:30.0.0"],\
           ["@jest/transform", "npm:30.0.0"],\
           ["@jest/types", "npm:30.0.0"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["chalk", "npm:4.1.2"],\
           ["cjs-module-lexer", "npm:2.1.0"],\
           ["collect-v8-coverage", "npm:1.0.2"],\
@@ -3593,7 +3593,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/jest-util-npm-30.0.0-de14658072-55171f9010.zip/node_modules/jest-util/",\
         "packageDependencies": [\
           ["@jest/types", "npm:30.0.0"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["chalk", "npm:4.1.2"],\
           ["ci-info", "npm:4.2.0"],\
           ["graceful-fs", "npm:4.2.11"],\
@@ -3624,7 +3624,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@jest/test-result", "npm:30.0.0"],\
           ["@jest/types", "npm:30.0.0"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["ansi-escapes", "npm:4.3.2"],\
           ["chalk", "npm:4.1.2"],\
           ["emittery", "npm:0.13.1"],\
@@ -3639,7 +3639,7 @@ const RAW_RUNTIME_STATE =
       ["npm:30.0.0", {\
         "packageLocation": "./.yarn/cache/jest-worker-npm-30.0.0-0e18cd85f6-c124a964f7.zip/node_modules/jest-worker/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.3"],\
           ["@ungap/structured-clone", "npm:1.3.0"],\
           ["jest-util", "npm:30.0.0"],\
           ["jest-worker", "npm:30.0.0"],\
@@ -3994,7 +3994,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/core", "npm:1.11.1"],\
           ["@types/jest", "npm:30.0.0"],\
-          ["@types/node", "npm:20.19.0"],\
+          ["@types/node", "npm:20.19.1"],\
           ["@vercel/ncc", "npm:0.38.3"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:30.0.0"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
@@ -4788,7 +4788,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.11"],\
           ["@tsconfig/node14", "npm:1.0.3"],\
           ["@tsconfig/node16", "npm:1.0.4"],\
-          ["@types/node", "npm:20.19.0"],\
+          ["@types/node", "npm:20.19.1"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
@@ -4882,6 +4882,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/undici-types-npm-6.21.0-eb2b0ed56a-ec8f41aa43.zip/node_modules/undici-types/",\
         "packageDependencies": [\
           ["undici-types", "npm:6.21.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.8.0", {\
+        "packageLocation": "./.yarn/cache/undici-types-npm-7.8.0-86f3e2d23e-fcff3fbab2.zip/node_modules/undici-types/",\
+        "packageDependencies": [\
+          ["undici-types", "npm:7.8.0"]\
         ],\
         "linkType": "HARD"\
       }]\
