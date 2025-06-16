@@ -1019,12 +1019,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.17.4":
-  version: 20.19.1
-  resolution: "@types/node@npm:20.19.1"
+"@types/node@npm:^22.0.0":
+  version: 22.15.32
+  resolution: "@types/node@npm:22.15.32"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10/2369a96a832a6e8111d2b996c56fb1b78b27fad0879de3e344ae2835697464e001d6fe813a11902348fc7dc63b9510000f3d2cd4bedadf2d3fce7b7bb7903444
+  checksum: 10/10b4c106d0c512a1d35ec08142bd7fb5cf2e1df93fc5627b3c69dd843dec4be07a47f1fa7ede232ad84762d75a372ea35028b79ee1e753b6f2adecd0b2cb2f71
   languageName: node
   linkType: hard
 
@@ -3018,7 +3018,7 @@ __metadata:
   dependencies:
     "@actions/core": "npm:^1.10.1"
     "@types/jest": "npm:^30.0.0"
-    "@types/node": "npm:^20.17.4"
+    "@types/node": "npm:^22.0.0"
     "@vercel/ncc": "npm:^0.38.1"
     jest: "npm:^30.0.0"
     jest-fetch-mock: "npm:^3.0.3"

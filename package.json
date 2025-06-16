@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/node": "^20.17.4",
+    "@types/node": "^22.0.0",
     "@vercel/ncc": "^0.38.1",
     "jest": "^30.0.0",
     "jest-fetch-mock": "^3.0.3",
@@ -42,7 +42,7 @@
     "typescript": "^5.5.4"
   },
   "engines": {
-    "node": "20"
+    "node": "22"
   },
   "packageManager": "yarn@4.9.2"
 }
