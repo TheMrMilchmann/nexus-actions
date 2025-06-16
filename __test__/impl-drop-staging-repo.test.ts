@@ -10,7 +10,7 @@ beforeEach(() => {
 
 afterEach(() => {
     expect(fetchMock.mock.calls[0][0]).toEqual("https://example.com/service/local/staging/bulk/drop");
-    expect(fetchMock).toBeCalledTimes(1);
+    expect(fetchMock).toHaveBeenCalledTimes(1);
 });
 
 test("Success", async () => {
@@ -42,7 +42,7 @@ test("Unauthorized", async () => {
         }
     );
 
-    expect(async () => {
+    await expect(async () => {
         await dropStagingRepo(
             {
                 baseUrl: "https://example.com",
@@ -54,5 +54,5 @@ test("Unauthorized", async () => {
                 }
             }
         );
-    }).rejects.toThrowError();
+    }).rejects.toThrow();
 });

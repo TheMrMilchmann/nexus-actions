@@ -51,7 +51,7 @@ test("Success", async () => {
         }
     );
 
-    expect(fetchMock).toBeCalledTimes(2);
+    expect(fetchMock).toHaveBeenCalledTimes(2);
 }, 30_000);
 
 test("Unauthorized", async () => {
@@ -62,7 +62,7 @@ test("Unauthorized", async () => {
         }
     );
 
-    expect(async () => {
+    await expect(async () => {
         await closeStagingRepo(
             {
                 baseUrl: "https://example.com",
@@ -74,7 +74,7 @@ test("Unauthorized", async () => {
                 }
             }
         );
-    }).rejects.toThrowError();
+    }).rejects.toThrow();
 
-    expect(fetchMock).toBeCalledTimes(1);
+    expect(fetchMock).toHaveBeenCalledTimes(1);
 });
