@@ -36,6 +36,7 @@
     "@vercel/ncc": "^0.38.1",
     "jest": "^30.0.0",
     "jest-fetch-mock": "^3.0.3",
+    "jest-util": "^30.0.0",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"

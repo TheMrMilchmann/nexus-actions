@@ -2629,7 +2629,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-util@npm:30.0.0":
+"jest-util@npm:30.0.0, jest-util@npm:^30.0.0":
   version: 30.0.0
   resolution: "jest-util@npm:30.0.0"
   dependencies:
@@ -3022,6 +3022,7 @@ __metadata:
     "@vercel/ncc": "npm:^0.38.1"
     jest: "npm:^30.0.0"
     jest-fetch-mock: "npm:^3.0.3"
+    jest-util: "npm:^30.0.0"
     node-fetch: "npm:^3.0.0"
     ts-jest: "npm:^29.2.5"
     ts-node: "npm:^10.9.2"

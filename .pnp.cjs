@@ -34,6 +34,7 @@ const RAW_RUNTIME_STATE =
           ["@vercel/ncc", "npm:0.38.3"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:30.0.0"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
+          ["jest-util", "npm:30.0.0"],\
           ["nexus-actions", "workspace:."],\
           ["node-fetch", "npm:3.3.2"],\
           ["ts-jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.4.0"],\
@@ -3997,6 +3998,7 @@ const RAW_RUNTIME_STATE =
           ["@vercel/ncc", "npm:0.38.3"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:30.0.0"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
+          ["jest-util", "npm:30.0.0"],\
           ["nexus-actions", "workspace:."],\
           ["node-fetch", "npm:3.3.2"],\
           ["ts-jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:29.4.0"],\
@@ -4737,7 +4739,7 @@ const RAW_RUNTIME_STATE =
           ["esbuild", null],\
           ["fast-json-stable-stringify", "npm:2.1.0"],\
           ["jest", "virtual:225c066c13a0efe43216ac67b405db7b34a83a83e6f40ed7f1d98a0d4b56026aa544e37a18906ac3176907efde66972ddc82d384886c02c374037e49e7a4dda4#npm:30.0.0"],\
-          ["jest-util", null],\
+          ["jest-util", "npm:30.0.0"],\
           ["json5", "npm:2.2.3"],\
           ["lodash.memoize", "npm:4.1.2"],\
           ["make-error", "npm:1.3.6"],\
