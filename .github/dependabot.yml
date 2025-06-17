@@ -14,22 +14,7 @@ updates:
     groups:
       "@actions/artifacts":
         patterns:
+          - "actions/deploy-pages"
           - "actions/download-artifact"
           - "actions/upload-artifact"
-
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    open-pull-requests-limit: 20
-    commit-message:
-      prefix: "build"
-    ignore:
-      - dependency-name: "@types/node"
-        update-types: ["version-update:semver-major"]
-        # See https://github.com/node-fetch/node-fetch/issues/1265
-      - dependency-name: "node-fetch"
-        update-types: [ "version-update:semver-major" ]
-    labels:
-      - "a:chore"
-      - "in:dependencies"
+          - "actions/upload-pages-artifact"

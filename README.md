@@ -1,10 +1,22 @@
 # nexus-actions
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge&label=License)](https://github.com/TheMrMilchmann/setup-msvc-dev/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge&label=License)](https://github.com/TheMrMilchmann/nexus-actions/blob/master/LICENSE)
+
+> [!IMPORTANT]
+> The Sonatype OSSRH (OSS Repository Hosting) service and the Nexus Repository
+> Manager 2 will be sunset on June 30th, 2025. Afterward, this plugin may still
+> be used to publish to the Central Portal with [some limitations](https://central.sonatype.org/publish/publish-portal-ossrh-staging-api#known-limitations)
+> or custom instances. However, it will not be developed further.
+> 
+> It is recommended to migrate to [publishing via the Central Portal](https://central.sonatype.org/publish/publish-portal-guide/)
+> instead. The [central-portal-actions](https://github.com/TheMrMilchmann/central-portal-actions)
+> provide similar capabilities to this repository using the new Central
+> Publisher API.
 
 A set of [GitHub Actions](https://github.com/features/actions) to automate
 publishing to Maven Central. Each action provides access to a primitive
 operation for interacting with the [Nexus Staging Suite](https://help.sonatype.com/repomanager2/staging-releases/staging-overview).
+
 
 ## Actions
 
@@ -150,7 +162,7 @@ staging Nexus repositories and optionally provide select handful shortcuts.
 ## License
 
 ```
-Copyright (c) 2023 Leon Linhart
+Copyright (c) 2023-2025 Leon Linhart
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
