@@ -5,7 +5,7 @@
 > [!IMPORTANT]
 > The Sonatype OSSRH (OSS Repository Hosting) service and the Nexus Repository
 > Manager 2 will be sunset on June 30th, 2025. Afterward, this plugin may still
-> be used to publish to the Central Portal with [some limitations](https://central.sonatype.org/publish/publish-portal-ossrh-staging-api/#known-limitations)
+> be used to publish to the Central Portal with [some limitations](https://central.sonatype.org/publish/publish-portal-ossrh-staging-api#known-limitations)
 > or custom instances. However, it will not be developed further.
 > 
 > It is recommended to migrate to [publishing via the Central Portal](https://central.sonatype.org/publish/publish-portal-guide/)
